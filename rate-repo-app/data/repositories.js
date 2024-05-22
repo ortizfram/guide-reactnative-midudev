@@ -7,7 +7,8 @@ export const repositories = [
     "stars": 1500,
     "forks": 300,
     "rating": 4.8,
-    "reviews": 120
+    "reviews": 120,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/583231?v=4"
   },
   {
     "name": "data-science-toolkit",
@@ -17,7 +18,8 @@ export const repositories = [
     "stars": 2500,
     "forks": 500,
     "rating": 4.9,
-    "reviews": 150
+    "reviews": 150,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1024025?v=4"
   },
   {
     "name": "web-design-guide",
@@ -27,7 +29,8 @@ export const repositories = [
     "stars": 800,
     "forks": 120,
     "rating": 4.5,
-    "reviews": 90
+    "reviews": 90,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4"
   },
   {
     "name": "machine-learning-examples",
@@ -37,7 +40,8 @@ export const repositories = [
     "stars": 3500,
     "forks": 750,
     "rating": 4.9,
-    "reviews": 200
+    "reviews": 200,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4"
   },
   {
     "name": "react-starter-kit",
@@ -47,7 +51,8 @@ export const repositories = [
     "stars": 2000,
     "forks": 400,
     "rating": 4.7,
-    "reviews": 110
+    "reviews": 110,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4"
   },
   {
     "name": "node-api-boilerplate",
@@ -57,7 +62,8 @@ export const repositories = [
     "stars": 1800,
     "forks": 350,
     "rating": 4.6,
-    "reviews": 100
+    "reviews": 100,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1714074?v=4"
   },
   {
     "name": "vue-dashboard",
@@ -67,7 +73,8 @@ export const repositories = [
     "stars": 2200,
     "forks": 450,
     "rating": 4.8,
-    "reviews": 130
+    "reviews": 130,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/6128107?v=4"
   },
   {
     "name": "android-app-template",
@@ -77,7 +84,8 @@ export const repositories = [
     "stars": 1600,
     "forks": 280,
     "rating": 4.6,
-    "reviews": 85
+    "reviews": 85,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/743164?v=4"
   },
   {
     "name": "spring-boot-starter",
@@ -87,7 +95,8 @@ export const repositories = [
     "stars": 2400,
     "forks": 500,
     "rating": 4.7,
-    "reviews": 140
+    "reviews": 140,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/19369327?v=4"
   },
   {
     "name": "flutter-app",
@@ -97,7 +106,8 @@ export const repositories = [
     "stars": 1300,
     "forks": 210,
     "rating": 4.5,
-    "reviews": 75
+    "reviews": 75,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/14101776?v=4"
   },
   {
     "name": "docker-compose-examples",
@@ -107,7 +117,8 @@ export const repositories = [
     "stars": 2100,
     "forks": 400,
     "rating": 4.7,
-    "reviews": 120
+    "reviews": 120,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/10539307?v=4"
   },
   {
     "name": "kubernetes-configs",
@@ -117,7 +128,8 @@ export const repositories = [
     "stars": 1900,
     "forks": 380,
     "rating": 4.6,
-    "reviews": 110
+    "reviews": 110,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1916665?v=4"
   },
   {
     "name": "graphql-server",
@@ -127,7 +139,8 @@ export const repositories = [
     "stars": 1700,
     "forks": 340,
     "rating": 4.5,
-    "reviews": 95
+    "reviews": 95,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/67109815?v=4"
   },
   {
     "name": "go-microservice",
@@ -137,7 +150,8 @@ export const repositories = [
     "stars": 1800,
     "forks": 360,
     "rating": 4.6,
-    "reviews": 100
+    "reviews": 100,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/7658037?v=4"
   },
   {
     "name": "rust-cli-tool",
@@ -147,6 +161,7 @@ export const repositories = [
     "stars": 1500,
     "forks": 300,
     "rating": 4.5,
-    "reviews": 80
+    "reviews": 80,
+    "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/2141305?v=4"
   }
 ];

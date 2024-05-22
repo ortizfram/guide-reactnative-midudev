@@ -8,6 +8,7 @@ const StyledText = ({
   fontSize,
   fontWeight,
   style,
+  align,
   ...restOfProps
 }) => {
   const textStyles = [
@@ -16,6 +17,7 @@ const StyledText = ({
     color === "secondary" && styles.colorSecondary,
     fontSize === "subheading" && styles.subheading,
     fontWeight === "bold" && styles.bold,
+    align === "center" && styles.textCenter,
     style, // Apply any additional styles passed via props
   ];
   return (
@@ -44,7 +46,9 @@ const styles = StyleSheet.create({
   colorSecondary: {
     color: theme.colors.textSecondary,
   },
+  textCenter: {
+    textAlign: theme.align.center,
+  },
 });
 
 export default StyledText;
-  

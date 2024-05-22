@@ -10,16 +10,24 @@ const RepositoryStats = ({ stars, forks, reviews, rating }) => {
   return (
     <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
       <View>
-        <StyledText>⭐ {parseThousands(stars)}</StyledText>
+        <StyledText align="center" fontWeight="bold">
+          ⭐ {parseThousands(stars)}
+        </StyledText>
       </View>
       <View>
-        <StyledText>🍴 {parseThousands(forks)}</StyledText>
+        <StyledText align="center" fontWeight="bold">
+          🍴 {parseThousands(forks)}
+        </StyledText>
       </View>
       <View>
-        <StyledText>💬 {reviews}</StyledText>
+        <StyledText align="center" fontWeight="bold">
+          💬 {reviews}
+        </StyledText>
       </View>
       <View>
-        <StyledText>💠{rating}</StyledText>
+        <StyledText align="center" fontWeight="bold">
+          💠{rating}
+        </StyledText>
       </View>
     </View>
   );

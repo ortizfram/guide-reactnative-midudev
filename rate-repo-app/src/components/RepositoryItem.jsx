@@ -3,8 +3,9 @@ import React from "react";
 import { repositories } from "../../data/repositories";
 import StyledText from "./StyledText";
 import RepositoryStats from "./RepositoryStats";
-
-
+import theme from "../theme";
+import { Image } from "react-native-web";
+import RepositoryItemHeader from "./RepositoryItemHeader";
 
 const RepositoryItem = () => {
   return (
@@ -13,12 +14,13 @@ const RepositoryItem = () => {
       ItemSeparatorComponent={() => <Text> </Text>}
       renderItem={({ item: repo }) => (
         <View key={repo.url} style={styles.ViewRenderItem}>
-          <StyledText fontWeight="bold" fontSize="subheading">
-            {repo.name}
-          </StyledText>
-          <StyledText>{repo.description}</StyledText>
-          <StyledText>{repo.language}</StyledText>
-          <StyledText>{repo.url}</StyledText>
+          <Image style={styles.image} source={{ uri: repo.ownerAvatarUrl }} />
+          <RepositoryItemHeader
+            description={repo.description}
+            language={repo.language}
+            url={repo.url}
+            name={repo.name}
+          />
           <RepositoryStats
             stars={repo.stars}
             forks={repo.forks}
@@ -37,6 +39,13 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingBottom: 5,
     paddingTop: 5,
+  },
+
+  image: {
+    width: 48,
+    height: 48,
+    borderRadius: 4,
+    overflow: "hidden",
   },
 });
 

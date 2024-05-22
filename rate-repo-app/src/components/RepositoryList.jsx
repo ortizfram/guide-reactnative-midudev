@@ -3,9 +3,13 @@ import React from "react";
 import RepositoryItem from "./RepositoryItem";
 
 const RepositoryList = () => {
-  return <RepositoryItem />;
+  return (
+    <RepositoryItem />
+  );
 };
 
 export default RepositoryList;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+
+});
