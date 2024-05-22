@@ -2,6 +2,9 @@ import { StyleSheet, Text, View, FlatList } from "react-native";
 import React from "react";
 import { repositories } from "../../data/repositories";
 import StyledText from "./StyledText";
+import RepositoryStats from "./RepositoryStats";
+
+
 
 const RepositoryItem = () => {
   return (
@@ -15,8 +18,13 @@ const RepositoryItem = () => {
           </StyledText>
           <StyledText>{repo.description}</StyledText>
           <StyledText>{repo.language}</StyledText>
-          <StyledText>{repo.stars}</StyledText>
           <StyledText>{repo.url}</StyledText>
+          <RepositoryStats
+            stars={repo.stars}
+            forks={repo.forks}
+            reviews={repo.reviews}
+            rating={repo.rating}
+          />
         </View>
       )}
       keyExtractor={(item) => item.url}
