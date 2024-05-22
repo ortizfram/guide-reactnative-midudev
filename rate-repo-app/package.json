@@ -32,5 +32,6 @@
   "eslintConfig": {
     "parser": "babel-eslint",
     "extends": ["standard","standard-jsx","standard-react"]
-  }
+  },
+  "react/prop-types":"off"
 }
