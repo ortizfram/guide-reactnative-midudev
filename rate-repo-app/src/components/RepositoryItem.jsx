@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, FlatList } from "react-native";
+import { StyleSheet, Text, View, FlatList } from "react-native"; // Ensure this import is correct
 import React from "react";
 import { repositories } from "../../data/repositories";
 import RepositoryStats from "./RepositoryStats";
@@ -10,11 +10,10 @@ const RepositoryItem = () => {
       data={repositories}
       ItemSeparatorComponent={() => <Text> </Text>}
       renderItem={({ item: repo }) => (
-        <View key={repo.url} style={styles.ViewRenderItem}>
+        <View key={repo.url} style={styles.viewRenderItem}>
           <RepositoryItemHeader
             description={repo.description}
             language={repo.language}
-            url={repo.url}
             name={repo.name}
             ownerAvatarUrl={repo.ownerAvatarUrl}
           />
@@ -32,12 +31,11 @@ const RepositoryItem = () => {
 };
 
 const styles = StyleSheet.create({
-  ViewRenderItem: {
+  viewRenderItem: {
     padding: 20,
     paddingBottom: 5,
     paddingTop: 5,
   },
-
 });
 
 export default RepositoryItem;

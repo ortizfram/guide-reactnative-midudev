@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View } from "react-native-web";
+import { Image, StyleSheet, View } from "react-native"; // Ensure this import is correct
 import theme from "../theme";
 import StyledText from "./StyledText";
 
@@ -6,12 +6,11 @@ const RepositoryItemHeader = ({
   description,
   language,
   name,
-  url,
   ownerAvatarUrl,
 }) => {
   return (
     <View style={{ flexDirection: "row", paddingBottom: 2 }}>
-      <View style={{ paddingRight:10 }}>
+      <View style={{ paddingRight: 10 }}>
         <Image style={styles.image} source={{ uri: ownerAvatarUrl }} />
       </View>
       <View style={{ flex: 1 }}>
@@ -36,7 +35,6 @@ const styles = StyleSheet.create({
     marginTop: 4,
     marginBottom: 4,
   },
-
   image: {
     width: 48,
     height: 48,

@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native"; // Ensure this import is correct
 import React from "react";
-import Constants from "expo-constants";
 import RepositoryList from "./RepositoryList";
+import AppBar from "./AppBar";
 
 const Main = () => {
   return (
-    <View style={{ marginTop: Constants.statusBarHeight, flexGrow: 1 }}>
+    <View style={{ flex: 1 }}>
+      <AppBar />
       <RepositoryList />
     </View>
   );
